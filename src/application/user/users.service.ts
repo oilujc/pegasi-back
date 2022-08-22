@@ -1,7 +1,5 @@
-import { hash } from 'bcrypt';
 import { CreateUserDto } from '@/domain/dtos/users.dto';
 import { HttpException } from '@exceptions/HttpException';
-import userModel from '@models/users.model';
 import { isEmpty } from '@utils/util';
 
 import { UserRespository } from '@/domain/interfaces/user-repository.interface';
